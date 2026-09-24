@@ -1,0 +1,17 @@
+---
+title: "Homework 2"
+format: pdf
+editor: visual
+---
+
+
+## Question 1
+
+```{r, eval=FALSE}
+install.packages("aRtsy")
+```
+#### Explanation
+The difference between install.packages and library is that install.packages installs whatever package you want to use to your computer, but library allows you to use it in whatever file you are working in.
+
+
+
