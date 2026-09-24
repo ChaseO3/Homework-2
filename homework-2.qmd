@@ -3,8 +3,9 @@ title: "Homework 2"
 format: pdf
 editor: visual
 ---
+# Packages
 
-
+\newpage
 ## Question 1
 
 ```{r, eval=FALSE}
@@ -13,5 +14,14 @@ install.packages("aRtsy")
 #### Explanation
 The difference between install.packages and library is that install.packages installs whatever package you want to use to your computer, but library allows you to use it in whatever file you are working in.
 
+\newpage
+## Question 2
 
+```{r}
+library("aRtsy")
+```
+#### Collatz conjecture
 
+The Collatz conjecture is a famous unsolved math problem that asks if repeating two simple arithmetic steps will always reach the number 1.
+
+$even = 3n +1, odd = n/2$
