@@ -25,3 +25,37 @@ library("aRtsy")
 The Collatz conjecture is a famous unsolved math problem that asks if repeating two simple arithmetic steps will always reach the number 1.
 
 $even = 3n +1, odd = n/2$
+
+\newpage
+## Question 3
+
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 10
+)
+```
+This function provides a customizable canvas. You are allowed to change the color and number of patterns provided. N is the starting number.
+
+#### part B
+
+```{r}
+set.seed(3)
+canvas_collatz(colors = c("blue"),
+  n = 10
+  )
+```
+
+- The function displays a different pattern everytime, but every line has the same starting point. This is because N = 10, so the function is going to create 10 random patterns all from the same starting point.
+
+- This could be troublesome due to the fact that it does not have the same output every time, meaning if you want something specific to happen then that wouldn't be possible with this type of code.
+
+- set.seed can be used to get the same output by producing the same "random" output every time you run the code.
+
+
+
+
+
+
+
+
