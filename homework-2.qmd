@@ -52,7 +52,19 @@ canvas_collatz(colors = c("blue"),
 
 - set.seed can be used to get the same output by producing the same "random" output every time you run the code.
 
+\newpage
+## Question 4
 
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+```
+
+- The difference in the code chunks are that your setting n to a specific number (10) in the first one and you are setting n to a range in the second (1:20)
+
+- No, it seems like the output is reproducing the same every time, so that would defeat the purpose of needing set.seed.
 
 
 
