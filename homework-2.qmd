@@ -29,7 +29,7 @@ $even = 3n +1, odd = n/2$
 \newpage
 ## Question 3
 
-```{r}
+```{r, eval=FALSE}
 canvas_collatz(
   colors = c("blue"),
   n = 10
@@ -39,7 +39,7 @@ This function provides a customizable canvas. You are allowed to change the colo
 
 #### part B
 
-```{r}
+```{r, eval=FALSE}
 set.seed(3)
 canvas_collatz(colors = c("blue"),
   n = 10
